@@ -1,0 +1,1 @@
+export function buildComment(text:string){return `Management reviewed the variance: ${text}`;}

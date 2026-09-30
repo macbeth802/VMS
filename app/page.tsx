@@ -1,0 +1,1 @@
+export default function Home(){return <main><h1>HUD VMS Preparation System</h1><p>Prototype</p></main>}

@@ -1,0 +1,1 @@
+export default function Dashboard(){return <div><h1>Dashboard</h1><ul><li>HCV Summary</li><li>Mainstream Summary</li><li>Adjustments</li></ul></div>}

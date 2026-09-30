@@ -1,0 +1,1 @@
+export default function Uploads(){return <div><h1>Uploads</h1><input type="file"/><input type="file"/></div>}
