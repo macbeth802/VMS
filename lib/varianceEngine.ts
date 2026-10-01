@@ -1,1 +1,0 @@
-export function detectVariance(ch:number,ph:number,cv:number,pv:number){const w=[]; if(ch>ph&&cv<=pv)w.push("HAP increased while leasing declined or stayed level"); if(ch<ph&&cv>pv)w.push("HAP decreased while leasing increased"); return w;}

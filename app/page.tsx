@@ -1,1 +1,1 @@
-export default function Home(){return <main><h1>HUD VMS Preparation System</h1><p>Prototype</p></main>}
+export default function Home(){return <div style={{padding:40,fontFamily:'Arial'}}><h1>HUD VMS Preparation System</h1><p>Functional demo with local upload handling.</p><a href='/dashboard'>Open Dashboard</a></div>}

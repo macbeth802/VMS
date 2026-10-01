@@ -1,0 +1,1 @@
+export default function A(){return <div><h1>Prior Month Adjustments</h1><table><tbody><tr><td>Program</td><td>Category</td><td>Amount</td></tr></tbody></table></div>}

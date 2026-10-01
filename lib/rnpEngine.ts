@@ -1,1 +1,0 @@
-export function calculateEndingRnp(beginningRnp:number,funding:number,hap:number,admin:number){return beginningRnp+funding-hap-admin;}

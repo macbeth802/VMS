@@ -1,1 +1,1 @@
-export default function Uploads(){return <div><h1>Uploads</h1><input type="file"/><input type="file"/></div>}
+"use client";import {useState} from 'react'; export default function U(){const[f,setF]=useState<any[]>([]);return <div><h1>Uploads</h1><input multiple type='file' onChange={e=>setF(Array.from(e.target.files||[]))}/><pre>{JSON.stringify(f.map(x=>x.name),null,2)}</pre></div>}
